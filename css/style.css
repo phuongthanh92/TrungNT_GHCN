@@ -1,0 +1,323 @@
+html, body{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    background: #f5f5f5;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none !important;
+}
+header{
+    background: #444444;
+    height: 40px;
+}
+#top-links{
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    color: #ffffff;
+    float: left;
+}
+
+#menu li a{
+    color: #ffffff;
+    padding: 0 5px;
+    line-height: 40px;
+}
+
+#menu a span:first-child{
+    color: #878787;
+    padding-right: 10px;
+}
+#menu li:hover{
+    background: rgba(255, 255, 255, 0.1);
+}
+#search-box{
+    border-top:1px solid #BFBFBF;
+    border-bottom: 1px solid #BFBFBF;
+    display: inline-block;
+}
+#search-box input{
+    border: none;
+    padding: 3px 10px;
+    color: #000000;
+}
+#title-page{
+    font-size: 24px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#search-box button{
+    border: none;
+    background: #ff0000;
+    color: #ffffff;
+    padding: 3px 10px;
+    border-radius: 2px;
+}
+
+.feature-box{
+    margin-top: 20px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+}
+.feature-box > .title{
+    padding: 8px 20px;
+    color: #000000;
+    background: #e9e9e9;
+    text-transform: uppercase;
+}
+.feature-box > .content{
+    padding: 15px;
+    min-height: 130px;
+}
+.feature-box .group{
+    float: left;
+    width: 50%;
+    clear: none !important;
+    margin-bottom: 10px;
+}
+.feature-box .group-btn{
+    clear: both;
+}
+.feature-box .group label{
+    font-weight: bold;
+    min-width: 100px;
+}
+#filter-box .group:nth-child(3){
+    clear: both!important;
+}
+#filter-box .group .col-xs-4{
+    padding: 0;
+}
+#statistic-box.feature-box tr td{
+    padding: 5px;
+}
+#statistic-box.feature-box tr td:first-child{
+    font-weight: bold;
+    font-size: 14px;
+}
+.feature-box .group input, .feature-box .group select{
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    padding: 3px 10px;
+    max-width: 120px;
+}
+#top-content{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+#top-content .col-sm-6:first-child .feature-box{
+    margin-right: 10px;
+}
+#top-content .col-sm-6:nth-child(2) .feature-box{
+    margin-left: 10px;
+}
+#list-order-status{
+    clear: both;
+    overflow: hidden;
+}
+#list-order{
+    clear: both;
+    border-radius: 3px;
+    overflow: hidden;
+}
+#list-order .table{
+    background: #ffffff;
+}
+#sidebar{
+    border: 1px solid #dddddd;
+    background: #ffffff;
+    margin: 20px 20px 20px 0;
+}
+#sidebar >.title{
+    padding: 8px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #428bca;
+}
+#sidebar >ul> li {
+    padding: 10px 20px;
+}
+#sidebar >ul> li.active, #sidebar >ul> li:hover{
+    background: #e9e9e9;
+}
+#sidebar > ul> li > a{
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+}
+#main-content{
+    overflow: hidden;
+    clear: both;
+}
+#list-order-status{
+    overflow: hidden;
+}
+#list-order-status .item > *{
+    vertical-align: bottom;
+}
+#list-order-status .item{
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #428bca;
+    padding: 5px;
+    border-radius: 3px;
+    float: left;
+    margin-right: 10px;
+    background: #ffffff;
+    vertical-align: text-bottom;
+    cursor: pointer;
+    font-weight: bold;
+}
+#list-order-status .item:hover,#list-order-status .item.active{
+    color: #ff0000;
+}
+#create-new-order .group.kind span.item{
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+#create-new-order .group.kind span.item.high{
+    color: #ff0000;
+}
+#create-new-order .group span.conner{
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+#create-new-order .group-btn{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+
+}
+#create-new-order .group-btn button{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+#create-new-order .create-box .title{
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+#create-new-order .more-info input:first-child{
+    display: block;
+}
+#create-new-order .more-info input{
+    width: 110px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+#new-address{
+    padding-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+#title-page button{
+    font-size: 14px;
+    font-weight: normal;
+    float: right;
+    margin-right: 15px;
+}
+#multi-order table{
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    margin-top: 10px;
+}
+#multi-order table tr td{
+    padding: 10px 10px 0;
+}
+#multi-order table tr:nth-child(even){
+    background: rgba(233,244,255, 0.5);
+}
+#multi-order tr td:first-child{
+    margin: 0 -10px;
+    width: 80%;
+}
+#multi-order tr td:nth-child(2){
+    width: 20%;
+    text-align: center;
+    padding-top: 30px ;
+}
+#multi-order .price{
+    font-weight: bold;
+    padding: 15px 0;
+}
+#multi-order tr td .group{
+    width: 25%;
+    padding: 0 5px;
+    float: left;
+    clear: none;
+}
+#multi-order tr td .group select{
+    height: 25px;
+    width: 100%;
+}
+#multi-order .item{
+    padding: 5px 10px 15px;
+}
+#multi-order .item .name{
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 20px;
+}
+#multi-order .item select{
+    padding: 3px 10px;
+    border: 1px solid #cccccc;
+}
+#multi-order .group-btn button{
+    margin-right: 10px;
+    font-size: 14px;
+}
+footer{
+    background: #f5f5f5;
+    margin-bottom: 40px ;
+    color: #888888 !important;
+}
+.footer-box a{
+    color: #888888;
+}
+.footer-box{
+    padding: 20px 10px;
+}
+footer .box{
+    padding: 10px;
+}
+.tittle-box{
+    font-size:17px;
+    color: #000;
+    text-transform: uppercase;
+    border-bottom: 1px solid #bfbfbf;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.content-box li{
+    padding: 9px 0;
+    border-bottom: 1px dashed #dddddd;
+}
+.content-box li:last-child{
+    border-bottom: none;
+}
+#bottom-menu{
+    overflow: hidden;
+}
+.copyright{
+    padding: 20px 0 10px;
+
+    clear: both;
+    overflow: hidden;
+    border-top: 1px solid #dddddd;
+    margin: 0 10px;
+}
+/*------------------- Login ---------------------------*/
